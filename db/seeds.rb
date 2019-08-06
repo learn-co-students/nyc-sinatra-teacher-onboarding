@@ -1,4 +1,20 @@
 landmarks_list = {
+    "BQE" => {
+      :figure_id => 1,
+      :year_completed => 1947
+    },
+    "Holland Tunnel" => {
+      :figure_id => 5,
+      :year_completed => 1927
+    },
+    "Wall Street Wall" => {
+      :figure_id => 4,
+      :year_completed => 1684
+    },
+    "Brooklyn Battery Tunnel" => {
+      :figure_id => 10,
+      :year_completed => 1973
+    },
     "Madison Square Guarden" => {
       :year_completed => 1901
     },
@@ -38,14 +54,20 @@ landmarks_list.each do |name, landmark_hash|
 end
 
 figure_list = {
-    "Billy The Kid" => {
-    },
-    "Mark Zuckerberg" => {
-    },
-    "Ada Lovelace" => {
-    },
-    "Linus Torvalds" => { 
-    }
+    "Robert Moses" => {},
+    "Al Smith" => {},
+    "Theodore Roosevelt" => {},
+    "Peter Stuyvesant" => {},
+    "Boss Tweed" => {},
+    "Michael Bloomberg" => {},
+    "Ed Koch" => {},
+    "Fiorello LaGuardia" => {},
+    "Jimmy Walker" => {},
+    "Belle Moskowitz" => {},
+    "Billy The Kid" => {},
+    "Mark Zuckerberg" => {},
+    "Ada Lovelace" => {},
+    "Linus Torvalds" => {}
   }
 
 figure_list.each do |name, figure_hash|
@@ -56,11 +78,13 @@ end
 
 
 title_list = {
-    "The Mayor" => {
+    "Mayor" => {
     },
-    "The Don" => {
+    "President" => {
     },
-    "Mr. President" => {
+    "Governer" => {
+    },
+    "NYC Parks commissioner" => {
     }
   }
 
