@@ -1,0 +1,10 @@
+<h1>Historical Figure</h1>
+<% if !@figure.titles.empty? %>
+<% @figure.titles.each do |title| %>
+<h4><%= title.name %></h4>
+<% end %>
+<% end %>
+<h2><%= @figure.name %></h2>
+<% @figure.landmarks.each do |landmark| %>
+<h3><%= landmark.name %>, completed in <%= landmark.year_completed %></h3>
+<% end %>
